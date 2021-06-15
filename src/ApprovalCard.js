@@ -1,6 +1,7 @@
 import React from 'react';
 
-const ApprovalCard = () => {
+const ApprovalCard = (props) => {
+    console.log(props);
     return (
         <div className="ui cards">
             <div className="card">

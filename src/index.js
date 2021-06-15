@@ -9,9 +9,10 @@ import ApprovalCard from './ApprovalCard';
 // Approche basée sur la fonction.
 const App = () => { // Sélecteur du projet
     return (
-        <div className="ui comments">
-            <ApprovalCard></ApprovalCard>
-            <CommentDetail author="Sam" date_publication="11/06/2021" rating="4" text="Commentaire de Sam"/>
+        <div className="ui container comments">
+            <ApprovalCard>
+                <CommentDetail author="Sam" date_publication="11/06/2021" rating="4" text="Commentaire de Sam"/>
+            </ApprovalCard>
             <CommentDetail author="Julien" date_publication="12/06/2021" rating="5" text="Commentaire de Julien"/>
             <CommentDetail author="Marie" date_publication="13/06/2021" rating="3" text="Commentaire de Marie"/>
         </div>
