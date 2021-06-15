@@ -5,7 +5,7 @@ const CommentDetail = props => {
     console.log(props); // "props" contient les paramètres passés par le composant parent dans 'index.js'
     return (
         <div className="comment">
-            <a href="/" className="avatar">
+            <a href="./" className="avatar">
                 <img src="" alt="Avatar de l'auteur"/>                
             </a>
             <div className="content">

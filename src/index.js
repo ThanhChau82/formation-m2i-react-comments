@@ -13,8 +13,19 @@ const App = () => { // Sélecteur du projet
             <ApprovalCard>
                 <CommentDetail author="Sam" date_publication="11/06/2021" rating="4" text="Commentaire de Sam"/>
             </ApprovalCard>
-            <CommentDetail author="Julien" date_publication="12/06/2021" rating="5" text="Commentaire de Julien"/>
-            <CommentDetail author="Marie" date_publication="13/06/2021" rating="3" text="Commentaire de Marie"/>
+
+            <ApprovalCard>
+                <h1>Attention !</h1>
+                <p>Êtes-vous sûre de vouloir supprimer ... ?</p>
+            </ApprovalCard>
+
+            <ApprovalCard>
+                <CommentDetail author="Julien" date_publication="12/06/2021" rating="5" text="Commentaire de Julien"/>
+            </ApprovalCard>
+
+            <ApprovalCard>
+                <CommentDetail author="Marie" date_publication="13/06/2021" rating="3" text="Commentaire de Marie"/>
+            </ApprovalCard>
         </div>
     );
 }
