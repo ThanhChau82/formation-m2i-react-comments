@@ -2,7 +2,7 @@ import React from 'react';
 //import faker from 'faker';
 
 const CommentDetail = props => {
-    console.log(props);
+    console.log(props); // "props" contient les paramètres passés par le composant parent dans 'index.js'
     return (
         <div className="comment">
             <a href="/" className="avatar">
